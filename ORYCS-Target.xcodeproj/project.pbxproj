@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E76357BF24D2CC9D000A2990 /* WaterCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E76357A424D2CC9B000A2990 /* WaterCell.cpp */; };
+		E76357C024D2CC9D000A2990 /* Grass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E76357A524D2CC9B000A2990 /* Grass.cpp */; };
+		E76357C124D2CC9D000A2990 /* Perennial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E76357A724D2CC9B000A2990 /* Perennial.cpp */; };
+		E76357C224D2CC9D000A2990 /* Woody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E76357AA24D2CC9B000A2990 /* Woody.cpp */; };
+		E76357C324D2CC9D000A2990 /* Annual.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E76357AD24D2CC9C000A2990 /* Annual.cpp */; };
+		E76357C424D2CC9D000A2990 /* VegetationCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E76357B124D2CC9C000A2990 /* VegetationCell.cpp */; };
+		E76357C524D2CC9D000A2990 /* PlantFunctionalType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E76357B324D2CC9C000A2990 /* PlantFunctionalType.cpp */; };
+		E76357C624D2CC9D000A2990 /* WaterLandscape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E76357B624D2CC9C000A2990 /* WaterLandscape.cpp */; };
+		E76357C724D2CC9D000A2990 /* Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E76357B824D2CC9C000A2990 /* Parameters.cpp */; };
+		E76357C824D2CC9D000A2990 /* Weather.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E76357B924D2CC9C000A2990 /* Weather.cpp */; };
+		E76357C924D2CC9D000A2990 /* SortedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E76357BA24D2CC9C000A2990 /* SortedList.cpp */; };
+		E76357CA24D2CC9D000A2990 /* Shrub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E76357BB24D2CC9C000A2990 /* Shrub.cpp */; };
+		E76357CB24D2CC9D000A2990 /* controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E76357BD24D2CC9C000A2990 /* controller.cpp */; };
+		E76357CC24D2CC9D000A2990 /* VegetationLandscape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E76357BE24D2CC9D000A2990 /* VegetationLandscape.cpp */; };
+		E76357CD24D2CDC9000A2990 /* ORYCS-Target in CopyFiles */ = {isa = PBXBuildFile; fileRef = E763579924D2CC84000A2990 /* ORYCS-Target */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E763579724D2CC84000A2990 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "/Users/katjairob/Documents/Documents – Katja’s MacBook Air/Model/ORYCS-EH";
+			dstSubfolderSpec = 0;
+			files = (
+				E76357CD24D2CDC9000A2990 /* ORYCS-Target in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E763579924D2CC84000A2990 /* ORYCS-Target */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ORYCS-Target"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76357A324D2CC9B000A2990 /* WaterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterCell.h; sourceTree = "<group>"; };
+		E76357A424D2CC9B000A2990 /* WaterCell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WaterCell.cpp; sourceTree = "<group>"; };
+		E76357A524D2CC9B000A2990 /* Grass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Grass.cpp; sourceTree = "<group>"; };
+		E76357A624D2CC9B000A2990 /* VegetationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VegetationCell.h; sourceTree = "<group>"; };
+		E76357A724D2CC9B000A2990 /* Perennial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Perennial.cpp; sourceTree = "<group>"; };
+		E76357A824D2CC9B000A2990 /* controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = controller.h; sourceTree = "<group>"; };
+		E76357A924D2CC9B000A2990 /* VegetationLandscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VegetationLandscape.h; sourceTree = "<group>"; };
+		E76357AA24D2CC9B000A2990 /* Woody.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Woody.cpp; sourceTree = "<group>"; };
+		E76357AB24D2CC9B000A2990 /* Perennial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Perennial.h; sourceTree = "<group>"; };
+		E76357AC24D2CC9C000A2990 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		E76357AD24D2CC9C000A2990 /* Annual.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Annual.cpp; sourceTree = "<group>"; };
+		E76357AE24D2CC9C000A2990 /* Shrub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shrub.h; sourceTree = "<group>"; };
+		E76357AF24D2CC9C000A2990 /* SortedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortedList.h; sourceTree = "<group>"; };
+		E76357B024D2CC9C000A2990 /* Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parameters.h; sourceTree = "<group>"; };
+		E76357B124D2CC9C000A2990 /* VegetationCell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VegetationCell.cpp; sourceTree = "<group>"; };
+		E76357B224D2CC9C000A2990 /* PlantFunctionalType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantFunctionalType.h; sourceTree = "<group>"; };
+		E76357B324D2CC9C000A2990 /* PlantFunctionalType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlantFunctionalType.cpp; sourceTree = "<group>"; };
+		E76357B424D2CC9C000A2990 /* Annual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annual.h; sourceTree = "<group>"; };
+		E76357B524D2CC9C000A2990 /* Grass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grass.h; sourceTree = "<group>"; };
+		E76357B624D2CC9C000A2990 /* WaterLandscape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WaterLandscape.cpp; sourceTree = "<group>"; };
+		E76357B724D2CC9C000A2990 /* Woody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Woody.h; sourceTree = "<group>"; };
+		E76357B824D2CC9C000A2990 /* Parameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Parameters.cpp; sourceTree = "<group>"; };
+		E76357B924D2CC9C000A2990 /* Weather.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Weather.cpp; sourceTree = "<group>"; };
+		E76357BA24D2CC9C000A2990 /* SortedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortedList.cpp; sourceTree = "<group>"; };
+		E76357BB24D2CC9C000A2990 /* Shrub.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shrub.cpp; sourceTree = "<group>"; };
+		E76357BC24D2CC9C000A2990 /* WaterLandscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterLandscape.h; sourceTree = "<group>"; };
+		E76357BD24D2CC9C000A2990 /* controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = controller.cpp; sourceTree = "<group>"; };
+		E76357BE24D2CC9D000A2990 /* VegetationLandscape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VegetationLandscape.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E763579624D2CC84000A2990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E763579024D2CC84000A2990 = {
+			isa = PBXGroup;
+			children = (
+				E763579B24D2CC84000A2990 /* ORYCS-EH */,
+				E763579A24D2CC84000A2990 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E763579A24D2CC84000A2990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E763579924D2CC84000A2990 /* ORYCS-Target */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E763579B24D2CC84000A2990 /* ORYCS-EH */ = {
+			isa = PBXGroup;
+			children = (
+				E76357AD24D2CC9C000A2990 /* Annual.cpp */,
+				E76357B424D2CC9C000A2990 /* Annual.h */,
+				E76357BD24D2CC9C000A2990 /* controller.cpp */,
+				E76357A824D2CC9B000A2990 /* controller.h */,
+				E76357A524D2CC9B000A2990 /* Grass.cpp */,
+				E76357B524D2CC9C000A2990 /* Grass.h */,
+				E76357B824D2CC9C000A2990 /* Parameters.cpp */,
+				E76357B024D2CC9C000A2990 /* Parameters.h */,
+				E76357A724D2CC9B000A2990 /* Perennial.cpp */,
+				E76357AB24D2CC9B000A2990 /* Perennial.h */,
+				E76357B324D2CC9C000A2990 /* PlantFunctionalType.cpp */,
+				E76357B224D2CC9C000A2990 /* PlantFunctionalType.h */,
+				E76357BB24D2CC9C000A2990 /* Shrub.cpp */,
+				E76357AE24D2CC9C000A2990 /* Shrub.h */,
+				E76357BA24D2CC9C000A2990 /* SortedList.cpp */,
+				E76357AF24D2CC9C000A2990 /* SortedList.h */,
+				E76357B124D2CC9C000A2990 /* VegetationCell.cpp */,
+				E76357A624D2CC9B000A2990 /* VegetationCell.h */,
+				E76357BE24D2CC9D000A2990 /* VegetationLandscape.cpp */,
+				E76357A924D2CC9B000A2990 /* VegetationLandscape.h */,
+				E76357A424D2CC9B000A2990 /* WaterCell.cpp */,
+				E76357A324D2CC9B000A2990 /* WaterCell.h */,
+				E76357B624D2CC9C000A2990 /* WaterLandscape.cpp */,
+				E76357BC24D2CC9C000A2990 /* WaterLandscape.h */,
+				E76357B924D2CC9C000A2990 /* Weather.cpp */,
+				E76357AC24D2CC9C000A2990 /* Weather.h */,
+				E76357AA24D2CC9B000A2990 /* Woody.cpp */,
+				E76357B724D2CC9C000A2990 /* Woody.h */,
+			);
+			path = "ORYCS-EH";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E763579824D2CC84000A2990 /* ORYCS-Target */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E76357A024D2CC84000A2990 /* Build configuration list for PBXNativeTarget "ORYCS-Target" */;
+			buildPhases = (
+				E763579524D2CC84000A2990 /* Sources */,
+				E763579624D2CC84000A2990 /* Frameworks */,
+				E763579724D2CC84000A2990 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ORYCS-Target";
+			productName = "ORYCS-EH";
+			productReference = E763579924D2CC84000A2990 /* ORYCS-Target */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E763579124D2CC84000A2990 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Katja Irob";
+				TargetAttributes = {
+					E763579824D2CC84000A2990 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E763579424D2CC84000A2990 /* Build configuration list for PBXProject "ORYCS-Target" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E763579024D2CC84000A2990;
+			productRefGroup = E763579A24D2CC84000A2990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E763579824D2CC84000A2990 /* ORYCS-Target */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E763579524D2CC84000A2990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76357C824D2CC9D000A2990 /* Weather.cpp in Sources */,
+				E76357C524D2CC9D000A2990 /* PlantFunctionalType.cpp in Sources */,
+				E76357CA24D2CC9D000A2990 /* Shrub.cpp in Sources */,
+				E76357C624D2CC9D000A2990 /* WaterLandscape.cpp in Sources */,
+				E76357C324D2CC9D000A2990 /* Annual.cpp in Sources */,
+				E76357C724D2CC9D000A2990 /* Parameters.cpp in Sources */,
+				E76357C424D2CC9D000A2990 /* VegetationCell.cpp in Sources */,
+				E76357C924D2CC9D000A2990 /* SortedList.cpp in Sources */,
+				E76357C224D2CC9D000A2990 /* Woody.cpp in Sources */,
+				E76357C024D2CC9D000A2990 /* Grass.cpp in Sources */,
+				E76357BF24D2CC9D000A2990 /* WaterCell.cpp in Sources */,
+				E76357CC24D2CC9D000A2990 /* VegetationLandscape.cpp in Sources */,
+				E76357C124D2CC9D000A2990 /* Perennial.cpp in Sources */,
+				E76357CB24D2CC9D000A2990 /* controller.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E763579E24D2CC84000A2990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E763579F24D2CC84000A2990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E76357A124D2CC84000A2990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E76357A224D2CC84000A2990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E763579424D2CC84000A2990 /* Build configuration list for PBXProject "ORYCS-Target" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E763579E24D2CC84000A2990 /* Debug */,
+				E763579F24D2CC84000A2990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E76357A024D2CC84000A2990 /* Build configuration list for PBXNativeTarget "ORYCS-Target" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E76357A124D2CC84000A2990 /* Debug */,
+				E76357A224D2CC84000A2990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E763579124D2CC84000A2990 /* Project object */;
+}

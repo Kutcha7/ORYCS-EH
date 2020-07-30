@@ -1,0 +1,19 @@
+#Scenarios and repetitions with the model EcoHyD
+#Input files will be chosen and output files will be coded based on IDs and repetitions you indicate here.
+
+#General scenario parameters
+Scenarios:         	1			total scenarios that logically differ from each other (e.g. climate, grazing, soil texture). There must be at least one scenario!
+ClimateRepetitions: 	1     			total repetitions accounting for climate variability (because of the rain generator). Weather file for each climate repetition = [Site]_[simYears]years_[WeatherFileID]_climrep-[climateRepetition].txt. There must be at least one repetition! 
+ModelRepetitions:       1			total repetitions accounting for model variability (because of random numbers). There must be at least one repetition! 
+
+###################
+#   Scenario 1    #			
+##################*
+OutputID: 		EHstation			ID of model output. Result files = [Site]_[simYears]years_[yearly/daily]_[OutputID]_climrep-[climateRepetition]_modelrep-[repetition].txt
+ModelParametersID: 	control			ID of model parameters file. Model parameters file = modelparameters_[ModelParametersID].txt	
+WeatherFileID:		EHstation			ID of weather file. Weather file = [Site]_[simYears]years_[WeatherFileID]_climrep-[climateRepetition].txt
+ElevationFileID:	EH			ID of elevation file. Elevation file = elevation_[xsize]_[ElevationFileID].txt
+SoilParametersID:	EH			ID of soil parameters file. Soil parameters file = soilparameters_[SoilParametersID].txt	
+VegetationParametersID:	EH		ID of vegetation parameters file. Vegetation parameters file = vegetationparameters_[VegetationParametersID].txt
+
+
